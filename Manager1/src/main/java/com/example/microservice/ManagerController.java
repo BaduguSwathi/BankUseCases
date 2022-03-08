@@ -5,7 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
+@RestController
+@RequestMapping
 public class ManagerController {
 	@Autowired  
 	ManagerService service;
